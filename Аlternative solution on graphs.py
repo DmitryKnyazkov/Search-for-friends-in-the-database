@@ -75,6 +75,7 @@ if __name__ == "__main__":
     # dict_id_friends = {user["id"]: [] for user in users}
     # nx.draw_networkx(graph)
 
+
     user = int(input("Введите id интересующего вас пользователя "))
     if check(user):
         full_data_ID = users[user]
