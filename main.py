@@ -77,6 +77,7 @@ if __name__ == "__main__":
             for x in dict_id_friends[user]:
                 print(users[x])
 
+
         print(f"Хотите узнать, с кем {name_user} вероятно еще знаком? Это будут друзья его друзей.")
         if input().upper() == "ДА":
             print(f"Друзья друзей {name_user}")
